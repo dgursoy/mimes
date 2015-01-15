@@ -21,7 +21,7 @@ for requirement in install_requires:
 
 # Main setup configuration.
 setup(
-    name='tomopy',
+    name='mimes',
     version=open('VERSION').read().strip(),
     install_requires=install_requires,
     packages=find_packages(),
@@ -32,7 +32,7 @@ setup(
     download_url='http://github.com/dgursoy/mimes',
     license='BSD',
     platforms='Any',
-    classifiers=['Development Status :: 4 - Beta',
+    classifiers=['Development Status :: 5 - Beta',
                  'License :: OSI Approved :: BSD License',
                  'Intended Audience :: Science/Research',
                  'Intended Audience :: Education',
